@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Karantina", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+  background: black;
+}
+
+.main-content__header {
+  font-size: 150px;
+  display: flex;
+}
+
+.text-content {
+  font-size: 80px;
+  color: white;
+  width: 70vw;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 1rem 4rem;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.green {
+  color: #949668;
+}
+
+.brown {
+  color: #94845c;
+}
