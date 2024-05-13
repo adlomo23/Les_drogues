@@ -18,12 +18,12 @@
 }
 
 .main-content__header {
-  font-size: 150px;
+  font-size: 12vw;
   display: flex;
 }
 
 .text-content {
-  font-size: 80px;
+  font-size: 5.5vw;
   color: white;
   width: 70vw;
   text-align: center;
@@ -34,8 +34,8 @@
   text-decoration: none;
   background: white;
   color: black;
-  padding: 1rem 4rem;
-  font-size: 40px;
+  padding: 2vh 4vw;
+  font-size: 3vw;
   border-radius: 15px;
 }
 
