@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karantina", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+}
+
+.basic {
+  height: 100vh;
+  position: relative;
+}
+
+.title {
+    position: absolute;
+    font-size: 275px;
+    display: flex;
+    color:rgba(239, 237, 236, 1);
+}
+
+.text{
+    font-size: 4vw;
+    width: 40vw;
+    position: absolute;
+    color:rgba(239, 237, 236, 1);
+    background-color: transparent;
+}
+
+.green{
+    color: rgba(148, 150, 104, 1);
+}
+
+.brown{
+    color: rgba(148, 132, 92, 1);
+}
+
+.orange{
+    color: rgba(226, 137, 37, 1);
+}
+
+.position1{
+    top: 8vh;
+    left: 35vw;
+}
+
+.position2{
+    top: 4vh;
+    left: 40vw;
+}
+
+.position3{
+    top: 28vh;
+    left: 40vw;
+}
+
+.position4{
+    top: 5vh;
+    right: 0;
+}
+
+.text-position1{
+    top: 40vh;
+    left: 15vw;
+}
+
+.button-position1{
+    z-index: 10;
+    top: 45vh;
+    left: 25vh;
+}
+
+.text-position2{
+    top: 35vh;
+    left: 50vw;
+}
+
+.text-position3{
+    top: 55vh;
+    left: 5vw;
+}
+
+.text-position4{
+    top: 55vh;
+    left: 50vw;
+}
