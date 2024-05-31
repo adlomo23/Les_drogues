@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/icon-drogues.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="content.css" />
+    <link rel="stylesheet" href="header.css" />
+    <title>Drugs</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">#SayNoToDrugs</div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="content.html">Home</a></li>
+          <li><a href="marihuana.html">Marihuana</a></li>
+          <li><a href="ecstasy.html">Ecstasy</a></li>
+          <li><a href="cocaine.html">Cocaine</a></li>
+          <li><a href="lsd.html">LSD</a></li>
+        </ul>
+      </nav>
+      <select class="nav-list__dropdown" onchange="location = this.value;">
+        <option value="" disabled selected>MENU</option>
+        <option value="index.html">Start</option>
+        <option value="content.html">Home</option>
+        <option value="marihuana.html">Marihuana</option>
+        <option value="ecstasy.html">Ecstasy</option>
+        <option value="cocaine.html">Cocaine</option>
+        <option value="lsd.html">LSD</option>
+      </select>
+    </header>
+    <main class="main-content">
+      <section class="section-content">
+        <h1 class="section-heading cannabis-heading">
+          MARIJUANA
+          <img
+            class="cannabis-img"
+            src="./images/marihuana.png"
+            alt="marihuana"
+          />
+        </h1>
+        <p class="section-paragraph flex-end">
+          Marijuana, also known as cannabis, is a psychoactive drug derived from
+          the Cannabis plant. It is used for both recreational and medicinal
+          purposes. The main psychoactive component of marijuana is
+          tetrahydrocannabinol (THC), which is responsible for its intoxicating
+          effects.
+        </p>
+      </section>
+      <section class="section-content">
+        <h1 class="section-heading flex-end ecstasy-heading">
+          ECSTASY
+          <img class="ecstasy-img" src="./images/ecstasy.png" alt="ecstasy" />
+        </h1>
+        <p class="section-paragraph">
+          MDMA, or ecstasy, is a synthetic drug with stimulant and
+          hallucinogenic properties. It's used recreationally to boost mood,
+          energy, and sensory perception, commonly at parties and festivals.
+          MDMA enhances serotonin, dopamine, and norepinephrine activity in the
+          brain, inducing euphoria and emotional connection. Yet, it poses risks
+          like dehydration, hyperthermia, and potential long-term brain changes.
+        </p>
+      </section>
+      <section class="section-content">
+        <h1 class="section-heading cocaine-heading">
+          COCAINE
+          <img class="cocaine-img" src="./images/cocaine.png" alt="cocaine" />
+        </h1>
+        <p class="section-paragraph flex-end">
+          Cocaine is a powerful stimulant drug that is commonly used
+          recreationally for its euphoric effects. It is derived from the coca
+          plant native to South America. Cocaine can be snorted, smoked, or
+          injected, and it produces intense feelings of energy, alertness, and
+          pleasure.
+        </p>
+      </section>
+      <section class="section-content">
+        <h1 class="section-heading flex-end lsd-heading">
+          LSD
+          <img class="lsd-img" src="./images/lsd.png" alt="lcd" />
+        </h1>
+        <p class="section-paragraph">
+          LSD, also known as acid, is a hallucinogenic drug that alters
+          perception and mood. It is synthesized from lysergic acid, which is
+          found in ergot, a fungus that grows on rye and other grains. LSD is
+          typically consumed orally and can induce profound changes in
+          consciousness, including visual hallucinations and altered sense of
+          time.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
